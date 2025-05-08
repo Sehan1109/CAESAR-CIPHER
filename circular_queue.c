@@ -13,7 +13,7 @@ void initializeQueue(CircularQueue*q){
 // Shift character forward by 'shift' using circular logic
 char shiftForward(CircularQueue*q, char ch, int shift){
     if(ch >= 'A' && ch <= 'Z'){
-        int index = (ch-'A'+shift+SIZE);
+        int index = (ch-'A'+shift+SIZE)%SIZE;
         return q->data[index];
     } else if(ch >= 'a' && ch <= 'z'){
         int index = (ch-'a'+shift+SIZE)%SIZE;
