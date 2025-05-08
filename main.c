@@ -4,7 +4,7 @@
 #include <ctype.h>
 
 #include"circular_queue.c"
-#include"cipher.logic.c"
+#include"cipher_logic.c"
 
 #define MAX_LEN 1024
 
