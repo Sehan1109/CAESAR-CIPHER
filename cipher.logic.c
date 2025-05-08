@@ -17,7 +17,7 @@ encrypted[i] = shiftForward(q, message [i], shift);
 encrypted[i] = '\0';
 
 }
-void decryptMessage(const char *encrypted, char *original, int shift, Circular Queue *q) {
+void decryptMessage(const char *encrypted, char *original, int shift, CircularQueue *q) {
 
 int i;
 

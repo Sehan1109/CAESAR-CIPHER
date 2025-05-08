@@ -6,7 +6,7 @@ void initializeQueue(CircularQueue*q){
     q->front = 0;
     q->rear = SIZE-1;
     for(int i=0; i<SIZE; i++){
-        q->dataa[i] = 'A'+i;
+        q->data[i] = 'A'+i;
     }
 }
 

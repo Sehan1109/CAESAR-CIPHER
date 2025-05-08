@@ -3,8 +3,8 @@
 #include <string.h>
 #include <ctype.h>
 
-#include"circular_queue.h"
-#include"cipher_logic.h"
+#include"circular_queue.c"
+#include"cipher.logic.c"
 
 #define MAX_LEN 1024
 
