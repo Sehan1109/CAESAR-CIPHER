@@ -6,6 +6,6 @@
 
 void encryptMessage(const char *message, char *encrypted, int shift, CircularQueue *q);
 
-void decryptMessage(const char *encrypted, char *original, int shift, Circular Queue *q);
+void decryptMessage(const char *encrypted, char *original, int shift, CircularQueue *q);
 
 #endif
